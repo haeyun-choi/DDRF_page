@@ -362,6 +362,31 @@
 </section>
 <!-- End BlurRF Dataset -->
 
+                          
+<!-- Image carousel -->
+<div class="custom-container">
+
+    <!-- 버튼 그룹 -->
+    <div class="button-group">
+        <button class="switch-btn" data-img="0">ExBluRF vs DeepDeblurRF-P (ours)</button>
+        <button class="switch-btn" data-img="1">BAGS vs DeepDeblurRF-G (ours)</button>
+        <button class="switch-btn" data-img="2">Deblurring-3DGS vs DeepDeblurRF-G (ours)</button>
+        <button class="switch-btn" data-img="3">PDRF-10 vs DeepDeblurRF-P (ours)</button>
+    </div>
+
+    <!-- 이미지 비교 영역 -->
+    <div class="slider-wrap-custom">
+        <div class="before-img">
+            <img id="before-img" src="./static/images/blurrf_exblur.png" alt="">
+            <div class="label label-left" id="label-left">ExBluRF</div>
+        </div>
+        <img id="after-img" src="./static/images/blurrf_ours_p.png" alt="">
+        <div class="label label-right" id="label-right">DeepDeblurRF-P (ours)</div>
+        <span class="handler"></span>
+    </div>
+</div>           
+
+                          
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
