@@ -178,14 +178,10 @@
       <h2 class="title is-3 mb-6">DeepDeblurRF</h2>
 
       <!-- 내용 (본문 글) -->
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="content has-text-justified mb-6">
-            <p>
-              <strong>DeepDeblurRF</strong> takes a set of blurred images of a scene and estimates a sharp radiance field that can synthesize a sharp novel view given an arbitrary pose.
-            </p>
-          </div>
-        </div>
+      <div class="content has-text-justified mb-6">
+        <p>
+          <strong>DeepDeblurRF</strong> takes a set of blurred images of a scene and estimates a sharp radiance field that can synthesize a sharp novel view given an arbitrary pose.
+        </p>
       </div>
 
       <!-- 이미지 -->
@@ -194,16 +190,12 @@
       </figure>
 
       <!-- 이미지 아래 글 -->
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="content has-text-justified">
-            <p>
-              To do so, DeepDeblurRF performs initial deblurring on the input blurred images.
-              Then, it iteratively performs <strong>RF construction</strong> using deblurred images and <strong>RF-guided deblurring</strong> to gradually enhance the quality of the radiance field and the deblurred images. 
-              At the last iteration, we perform only the radiance field construction step and obtain a final radiance field, from which we can synthesize sharp novel views.
-            </p>
-          </div>
-        </div>
+      <div class="content has-text-justified">
+        <p>
+          To do so, DeepDeblurRF performs initial deblurring on the input blurred images.
+          Then, it iteratively performs <strong>RF construction</strong> using deblurred images and <strong>RF-guided deblurring</strong> to gradually enhance the quality of the radiance field and the deblurred images. 
+          At the last iteration, we perform only the radiance field construction step and obtain a final radiance field, from which we can synthesize sharp novel views.
+        </p>
       </div>
 
       <!-- 이미지 -->
@@ -212,22 +204,16 @@
       </figure>
 
       <!-- 이미지 아래 글 -->
-      <div class="columns is-centered">
-        <div class="column is-two-thirds">
-          <div class="content has-text-justified">
-            <p>
-              As iterations progress, the rendered images contain high-quality scene information, which subsequently improves the RF-guided deblurring network's performance in the next iteration.
-            </p>
-          </div>
-        </div>
+      <div class="content has-text-justified">
+        <p>
+          As iterations progress, the rendered images contain high-quality scene information, which subsequently improves the RF-guided deblurring network's performance in the next iteration.
+        </p>
       </div>
       
     </div>
   </div>
 </section>
 <!-- End paper method -->
-
-
 
 
 
