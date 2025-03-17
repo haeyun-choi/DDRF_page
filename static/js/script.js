@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
         { before: "./static/images/caps_pdrf.png", after: "./static/images/caps_ours_p.png", beforeLabel: "PDRF-10", afterLabel: "DeepDeblurRF-P (ours)" },
         { before: "./static/images/girl_dbgs.png", after: "./static/images/girl_ours_g.png", beforeLabel: "Deblurring-3DGS", afterLabel: "DeepDeblurRF-G (ours)" },
         { before: "./static/images/deco_db.png", after: "./static/images/deco_ours_p.png", beforeLabel: "Deblur-NeRF", afterLabel: "DeepDeblurRF-P (ours)" },
-        { before: "./static/images/sb_bags.png", after: "./static/images/sb_ours_g.png", beforeLabel: "BAGS", afterLabel: "DeepDeblurRF-G (ours)" }
+        { before: "./static/images/basket_dbgs.png", after: "./static/images/basket_ours_g.png", beforeLabel: "Deblurring-3DGS", afterLabel: "DeepDeblurRF-G (ours)" },
+        { before: "./static/images/sb_bags.png", after: "./static/images/sb_ours_g.png", beforeLabel: "BAGS", afterLabel: "DeepDeblurRF-G (ours)" },
+        { before: "./static/images/seal_dbgs.png", after: "./static/images/seal_ours_g.png", beforeLabel: "Deblurring-3DGS", afterLabel: "DeepDeblurRF-G (ours)" }
     ];
 
     const beforeImg = document.getElementById("before-img");
