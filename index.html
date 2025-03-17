@@ -41,6 +41,123 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <style>
+    HTML, body {
+      margin : 0 !important;
+      padding : 0 !important;
+    }
+    
+    .custom-container {
+      width: 100% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+    
+    .button-group {
+      margin-bottom: 20px;
+    }
+
+    .switch-btn {
+      padding: 10px 15px;
+      margin: 5px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .slider-wrap-custom {
+      position: relative !important;
+    }
+    
+    .slider-wrap-custom img {
+      display: block !important;
+      width: 1080px !important;
+      height: auto !important;
+      max-width: unset !important;
+      user-select: none !important;
+    }
+    
+    .slider-wrap-custom .before-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      overflow: hidden;
+      box-sizing: border-box !important;
+    }
+
+    .slider-wrap-custom .handler {
+      display: block;
+      width: 5px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .3);
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      cursor: ew-resize;
+    }
+
+    .slider-wrap-custom .handler::after {
+      width: 64px;
+      height: 64px;
+      background-color: rgba(0, 0, 0, .5);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      content: '\2b0c';
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      line-height: 64px;
+      border-radius: 50%;
+      box-shadow: 0 2px 6px #000;
+      transition: all .3s ease;
+    }
+    
+    .slider-wrap-custom .handler:hover::after {
+      width: 40px;
+      height: 40px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .label {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 10;
+    }
+
+    .label-left {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .label-right {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    
+
+
+
+    
+  </style>
+
+
+  
 </head>
 <body>
 
