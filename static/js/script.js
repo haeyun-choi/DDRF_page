@@ -1,12 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const imagePairs = [
-        { before: "gaussian_compare_image/gs/00000.png", after: "gaussian_compare_image/hgs/00000.png", beforeLabel: "3D-GS", afterLabel: "Ours-P" },
-        { before: "gaussian_compare_image/gs/00002.png", after: "gaussian_compare_image/hgs/00002.png", beforeLabel: "3D-GS", afterLabel: "Ours-P" },
-        { before: "gaussian_compare_image/gs/00010.png", after: "gaussian_compare_image/hgs/00010.png", beforeLabel: "3D-GS", afterLabel: "Ours-P" },
-        { before: "gaussian_compare_image/gs/00004.png", after: "gaussian_compare_image/hgs/00004.png", beforeLabel: "3D-GS", afterLabel: "Ours-P" },
-        { before: "gaussian_compare_image/gs/00011.png", after: "gaussian_compare_image/hgs/00011.png", beforeLabel: "BAGS", afterLabel: "Ours-G" },
-        { before: "gaussian_compare_image/gs/00029.png", after: "gaussian_compare_image/hgs/00029.png", beforeLabel: "BAGS", afterLabel: "Ours-G" },
-        { before: "gaussian_compare_image/gs/00018.png", after: "gaussian_compare_image/hgs/00018.png", beforeLabel: "BAGS", afterLabel: "Ours-G" }
+        { before: "./static/images/blurrf_exblur.png", after: "./static/images/blurrf_ours_p.png", beforeLabel: "ExBluRF", afterLabel: "DeepDeblurRF-P (ours)" },
+        { before: "./static/images/cupcake_bags.png", after: "./static/images/cupcake_ours_g.png", beforeLabel: "BAGS", afterLabel: "DeepDeblurRF-G (ours)" },
+        { before: "./static/images/girl_dbgs.png", after: "./static/images/girl_ours_g.png", beforeLabel: "Deblurring-3DGS", afterLabel: "DeepDeblurRF-G (ours)" },
+        { before: "./static/images/caps_pdrf.png", after: "./static/images/caps_ours_p.png", beforeLabel: "PDRF-10", afterLabel: "DeepDeblurRF-P (ours)" }
     ];
 
     const beforeImg = document.getElementById("before-img");
