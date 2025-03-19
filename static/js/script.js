@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const imagePairs = [
+        { before: "./static/images/lotus_blur.png", after: "./static/images/lotus_ours_g.png", beforeLabel: "Blurry", afterLabel: "DeepDeblurRF-G (ours)" },
         { before: "./static/images/blurrf_exblur.png", after: "./static/images/blurrf_ours_p.png", beforeLabel: "ExBluRF", afterLabel: "DeepDeblurRF-P (ours)" },
         { before: "./static/images/blurrf_dbgs.png", after: "./static/images/blurrf_ours_g.png", beforeLabel: "Deblurring-3DGS", afterLabel: "DeepDeblurRF-G (ours)" },
         { before: "./static/images/cupcake_bags.png", after: "./static/images/cupcake_ours_g.png", beforeLabel: "BAGS", afterLabel: "DeepDeblurRF-G (ours)" },
